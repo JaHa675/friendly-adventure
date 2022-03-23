@@ -1,0 +1,71 @@
+* {
+  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  background-color: rgb(208, 177, 236);
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  font-weight: bolder;
+  background-color: salmon;
+  width: 100%;
+}
+h1{
+  background-color: inherit;
+}
+footer {
+  text-align: center;
+  color: white;
+  background-color: darkviolet;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+figcaption{
+    font-size: 30px;
+}
+.fancyLineBreak{
+    background-color: darkmagenta;
+    height: 30px;
+}
+#centerSquare{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    height: 210px;
+    width: 210px;
+    padding: 10px;
+    margin: 10;
+    border: rgb(154, 94, 209);
+}
+.link{
+  font-size: 20px;
+  float:inline-end;
+  padding: 2px;
+  border: 2px darkmagenta solid;
+}
+.boxContainer{
+position: relative;
+left: 40%;
+width: 250px;
+height: 250px;
+background-color: aqua;
+padding: 15px;
+border: 15px green solid;
+}
+.boxContainer p{
+  position: absolute;
+  top: 120px;
+  left: 85px;
+  color: blanchedalmond;
+  font-weight: bold;
+  background-color: transparent;
+}
+input[type=text], select, textarea {
+  width: 100%;
+}
+input[type=text], select, textarea {
+  width: 30%;
+  padding:  12px;
+  border: 1px solid grey;
+}

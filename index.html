@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <p>wooooooooooooords</p>
-</body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="unselectable">
+      <h1>My New Website</h1>
+      <span class="link">
+        <a href="https://github.com/JaHa675"> Github </a>
+      </span>
+      <span class="link">
+        <a href=" "> Portfolio </a>
+      </span>
+      <span class="link">
+        <a href="mailto:james.harding675@gmail.com"> Contact </a>
+      </span>
+    </header>
+
+    <div class="fancyLineBreak"></div>
+
+    <br /><br /><br />
+    <div class="boxContainer unselectable">
+      <img
+        src="./assets/blue-square-image-3.png"
+        alt="blue square"
+        id="centerSquare"
+      />
+      <p>Coming Soon</p>
+    </div>
+
+    <br /><br /><br />
+    
+    <div class="fancyLineBreak"></div>
+    <!-- going to put the stuff for the submissions here -->
+    <div class="container">
+    <form action="contact.PHP">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="firstname" placeholder="Your name...">
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    <footer>some copyright stuff idk</footer>
+  </body>
 </html>
